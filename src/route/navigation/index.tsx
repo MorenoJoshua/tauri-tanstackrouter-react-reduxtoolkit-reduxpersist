@@ -1,4 +1,4 @@
-import {Link, LinkFn, LinkPropsOptions, Outlet} from "@tanstack/react-router";
+import {Link, Outlet} from "@tanstack/react-router";
 import React from "react";
 
 const NavLink = ({to, children, ...rest}: { to: string, children: React.ReactNode }) => (

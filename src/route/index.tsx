@@ -1,7 +1,6 @@
-import React, { StrictMode } from 'react'
-import ReactDOM from 'react-dom/client'
-import {Link, Outlet, RootRoute, Route, Router} from "@tanstack/react-router";
-import RootComponent, {navButtons} from "./navigation";
+import React from 'react'
+import {RootRoute, Router} from "@tanstack/react-router";
+import RootComponent from "./navigation";
 import {mainRoute} from "./main/navigation";
 
 // Create a root route

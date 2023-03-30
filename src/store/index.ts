@@ -6,7 +6,7 @@ import sessionSlice, {
     sessionInitialState
 } from './slices/session'
 import {useDispatch, useSelector} from "react-redux";
-import {persistStore, persistReducer} from 'redux-persist'
+import {persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage';
 
 const reducer = combineReducers({
